@@ -240,6 +240,9 @@ bindsym XF86MonBrightnessDown exec light -U 20 # decrease screen brightness
 `sudo apt install compton`
 
 Compton is a compositor. It allows things like transparency.
+The config file should be at `~/.config/i3/compton.conf`.
+If it is not there, you can create it.
+A [default config file](https://github.com/chjj/compton/blob/master/compton.sample.conf) is provided on github.
 
 ## [Rofi](https://github.com/davatorium/rofi)
 `sudo apt install rofi`
